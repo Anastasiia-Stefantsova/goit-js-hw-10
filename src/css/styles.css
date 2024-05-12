@@ -23,3 +23,20 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.menu-list {
+  display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.menu-link {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 36px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #4e75ff;
+    width: 150px;
+  }
